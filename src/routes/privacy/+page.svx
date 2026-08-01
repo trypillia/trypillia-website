@@ -40,7 +40,7 @@
   <h3>Інформація</h3>
   <dl class="dl-grid">
     <dt>Останнє оновлення</dt>
-    <dd>1 Травня, 2026</dd>
+    <dd>1 травня 2026</dd>
     <dt>Контакти</dt>
     <dd><a href="mailto:questions@cssm.pp.ua">Email</a></dd>
   </dl>
