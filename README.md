@@ -40,8 +40,7 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+The website is automatically deployed to GitHub Pages on every push to the `main` branch via GitHub Actions.
 
 ## Contributing
 
