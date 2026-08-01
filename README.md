@@ -4,22 +4,6 @@
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.16.2 create --template minimal --types ts --add mdsvex --no-download-check --no-install website
-```
-
 ## Developing
 
 To run the website locally, install dependencies with `npm install` (or `pnpm install` / `yarn`), and start a development server:
