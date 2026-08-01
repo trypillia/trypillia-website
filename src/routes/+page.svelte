@@ -17,7 +17,7 @@
 			</p>
 			<div class="hero-actions">
 				<a href={`${base}/docs`} class="btn btn-primary">Почати роботу</a>
-				<a href="https://github.com/ChernegaSergiy/trypillia-language/releases" class="btn">Завантажити v1.0</a>
+				<a href="https://github.com/trypillia/trypillia-language/releases" class="btn">Завантажити v1.0</a>
 			</div>
 		</div>
 		<CodeBlock
