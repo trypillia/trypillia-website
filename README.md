@@ -2,7 +2,7 @@
 
 [![Deploy Website](https://github.com/trypillia/trypillia-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/trypillia/trypillia-website/actions/workflows/deploy.yml)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+The official website and documentation for the Trypillia programming language, powered by [`sv`](https://github.com/sveltejs/cli).
 
 ## Developing
 
