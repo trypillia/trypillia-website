@@ -7,7 +7,7 @@
 		{ href: `${base}/docs`, label: 'Документація' },
 		{ href: `${base}/spec`, label: 'Специфікація' },
 		{ href: `${base}/packages`, label: 'Пакунки' },
-		{ href: 'https://github.com/ChernegaSergiy/trypillia-language', label: 'GitHub' }
+		{ href: 'https://github.com/trypillia/trypillia-language', label: 'GitHub' }
 	];
 
 	$effect(() => {
