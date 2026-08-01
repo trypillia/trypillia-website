@@ -38,7 +38,7 @@ if [ -d "$SRC_DIR" ]; then
     git fetch --all
     git reset --hard origin/main
 else
-    git clone https://github.com/ChernegaSergiy/trypillia-language.git "$SRC_DIR"
+    git clone https://github.com/trypillia/trypillia-language.git "$SRC_DIR"
     cd "$SRC_DIR"
 fi
 

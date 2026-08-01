@@ -25,7 +25,7 @@ if (Test-Path $SrcDir) {
     git fetch --all
     git reset --hard origin/main
 } else {
-    git clone https://github.com/ChernegaSergiy/trypillia-language.git $SrcDir
+    git clone https://github.com/trypillia/trypillia-language.git $SrcDir
     Set-Location $SrcDir
 }
 
