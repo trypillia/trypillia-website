@@ -13,8 +13,9 @@ function escapeHtml(s: string): string {
 
 async function getHighlighter(): Promise<HighlighterCore> {
 	if (!highlighterPromise) {
+		const { base } = await import('$app/paths');
 		const { createHighlighter } = await import('shiki');
-		const res = await fetch('/trypillia.tmLanguage.json');
+		const res = await fetch(`${base}/trypillia.tmLanguage.json`);
 		const grammar = (await res.json()) as IRawGrammar;
 
 		const h = await createHighlighter({
