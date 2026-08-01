@@ -1,4 +1,4 @@
-# sv
+# Trypillia Website
 
 [![Deploy Website](https://github.com/trypillia/trypillia-website/actions/workflows/deploy-website.yml/badge.svg)](https://github.com/trypillia/trypillia-website/actions/workflows/deploy-website.yml)
 
