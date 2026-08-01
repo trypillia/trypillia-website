@@ -40,6 +40,9 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+## Deployment
+
 The website is automatically deployed to GitHub Pages on every push to the `main` branch via GitHub Actions.
 
 ## Contributing
