@@ -1,0 +1,39 @@
+<script lang="ts">
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import MethodBreadcrumb from '$lib/components/MethodBreadcrumb.svelte';
+
+	const example = `let r = MockResult.ok("готово");
+print(r.unwrap());  // готово`;
+</script>
+
+<svelte:head>
+	<title>MockResult.unwrap — Trypillia</title>
+</svelte:head>
+
+<MethodBreadcrumb module="MockResult" title="MockResult" name="unwrap" />
+
+<section>
+
+## MockResult.unwrap
+
+<CodeBlock code={`MockResult.unwrap() -> Any`} />
+
+Повертає значення успішного тестового результату. Якщо результат є помилкою, викликає `failAssertion` з повідомленням про помилку.
+
+</section>
+
+<section>
+
+### Повертає
+
+`Any` — значення успішного результату.
+
+</section>
+
+<section>
+
+### Приклад
+
+<CodeBlock code={example} />
+
+</section>

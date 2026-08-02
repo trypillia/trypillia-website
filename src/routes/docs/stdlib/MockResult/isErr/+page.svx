@@ -1,0 +1,39 @@
+<script lang="ts">
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import MethodBreadcrumb from '$lib/components/MethodBreadcrumb.svelte';
+
+	const example = `let r = MockResult.err("x");
+print(r.isErr());  // true`;
+</script>
+
+<svelte:head>
+	<title>MockResult.isErr — Trypillia</title>
+</svelte:head>
+
+<MethodBreadcrumb module="MockResult" title="MockResult" name="isErr" />
+
+<section>
+
+## MockResult.isErr
+
+<CodeBlock code={`MockResult.isErr() -> Bool`} />
+
+Повертає `true`, якщо тестовий результат є помилкою.
+
+</section>
+
+<section>
+
+### Повертає
+
+`Bool` — чи є результат помилкою.
+
+</section>
+
+<section>
+
+### Приклад
+
+<CodeBlock code={example} />
+
+</section>

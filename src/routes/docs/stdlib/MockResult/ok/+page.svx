@@ -1,0 +1,50 @@
+<script lang="ts">
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import MethodBreadcrumb from '$lib/components/MethodBreadcrumb.svelte';
+
+	const example = `let r = MockResult.ok(42);
+print(r.isOk());    // true
+print(r.unwrap());  // 42`;
+</script>
+
+<svelte:head>
+	<title>MockResult.ok — Trypillia</title>
+</svelte:head>
+
+<MethodBreadcrumb module="MockResult" title="MockResult" name="ok" />
+
+<section>
+
+## MockResult.ok
+
+<CodeBlock code={`MockResult.ok(value: Any) -> MockResult`} />
+
+Створює успішний тестовий результат із заданим значенням. Це тест-дублер `Result.ok`, який працює без реального ВМ.
+
+</section>
+
+<section>
+
+### Параметри
+
+| Параметр | Опис |
+| --- | --- |
+| `value: Any` | Значення успішного результату. |
+
+</section>
+
+<section>
+
+### Повертає
+
+`MockResult` — успішний тестовий результат.
+
+</section>
+
+<section>
+
+### Приклад
+
+<CodeBlock code={example} />
+
+</section>

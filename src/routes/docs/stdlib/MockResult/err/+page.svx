@@ -1,0 +1,50 @@
+<script lang="ts">
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import MethodBreadcrumb from '$lib/components/MethodBreadcrumb.svelte';
+
+	const example = `let r = MockResult.err("Збій");
+print(r.isErr());      // true
+print(r.unwrapErr());  // Збій`;
+</script>
+
+<svelte:head>
+	<title>MockResult.err — Trypillia</title>
+</svelte:head>
+
+<MethodBreadcrumb module="MockResult" title="MockResult" name="err" />
+
+<section>
+
+## MockResult.err
+
+<CodeBlock code={`MockResult.err(error: Any) -> MockResult`} />
+
+Створює тестовий результат-помилку із заданим значенням помилки. Це тест-дублер `Result.err`, який працює без реального ВМ.
+
+</section>
+
+<section>
+
+### Параметри
+
+| Параметр | Опис |
+| --- | --- |
+| `error: Any` | Значення помилки. |
+
+</section>
+
+<section>
+
+### Повертає
+
+`MockResult` — результат-помилка.
+
+</section>
+
+<section>
+
+### Приклад
+
+<CodeBlock code={example} />
+
+</section>
