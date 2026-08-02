@@ -286,15 +286,6 @@ export const modules: ModuleEntry[] = [
 		]
 	},
 	{
-		slug: 'Promise',
-		title: 'Promise',
-		description: 'Асинхронні обчислення та ланцюжки обробки.',
-		methods: [
-			{ name: 'Promise', label: 'Promise()', summary: 'Створює проміс із виконавцем.' },
-			{ name: 'then', label: 'then()', summary: 'Додає обробники результату.' }
-		]
-	},
-	{
 		slug: 'MockResult',
 		title: 'MockResult',
 		description: 'Тест-дублер класу Result для юніт-тестів без реального VM.',
@@ -305,6 +296,15 @@ export const modules: ModuleEntry[] = [
 			{ name: 'isErr', label: 'isErr()', summary: 'Чи містить помилку.' },
 			{ name: 'unwrap', label: 'unwrap()', summary: 'Повертає значення або панікує.' },
 			{ name: 'unwrapErr', label: 'unwrapErr()', summary: 'Повертає помилку або панікує.' }
+		]
+	},
+	{
+		slug: 'Promise',
+		title: 'Promise',
+		description: 'Асинхронні обчислення та ланцюжки обробки.',
+		methods: [
+			{ name: 'Promise', label: 'Promise()', summary: 'Створює проміс із виконавцем.' },
+			{ name: 'then', label: 'then()', summary: 'Додає обробники результату.' }
 		]
 	}
 ];
