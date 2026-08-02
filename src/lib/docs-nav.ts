@@ -293,6 +293,19 @@ export const modules: ModuleEntry[] = [
 			{ name: 'Promise', label: 'Promise()', summary: 'Створює проміс із виконавцем.' },
 			{ name: 'then', label: 'then()', summary: 'Додає обробники результату.' }
 		]
+	},
+	{
+		slug: 'MockResult',
+		title: 'MockResult',
+		description: 'Тест-дублер класу Result для юніт-тестів без реального VM.',
+		methods: [
+			{ name: 'ok', label: 'ok()', summary: 'Створює успішний результат зі значенням.' },
+			{ name: 'err', label: 'err()', summary: 'Створює результат-помилку.' },
+			{ name: 'isOk', label: 'isOk()', summary: 'Чи містить успішне значення.' },
+			{ name: 'isErr', label: 'isErr()', summary: 'Чи містить помилку.' },
+			{ name: 'unwrap', label: 'unwrap()', summary: 'Повертає значення або панікує.' },
+			{ name: 'unwrapErr', label: 'unwrapErr()', summary: 'Повертає помилку або панікує.' }
+		]
 	}
 ];
 
