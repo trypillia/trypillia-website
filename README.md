@@ -4,6 +4,8 @@
 
 The official website and documentation for the Trypillia programming language, powered by [`sv`](https://github.com/sveltejs/cli).
 
+![Trypillia website preview](assets/website-preview.png)
+
 ## Developing
 
 To run the website locally, install dependencies with `npm install` (or `pnpm install` / `yarn`), and start a development server:
